@@ -1,0 +1,42 @@
+<html>
+    <head>
+    <title>Réact</title>
+        <h1 align="center">
+            <font size="6" color="red">
+                <u>
+         Méthodes du cycle de vie  
+                </u>
+            </font>
+        </h1>
+    </head>
+    <body>
+    <style>
+        body {background-color: powderblue;}
+    </style>
+        <p>
+            <font size="5" color="blue">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les méthodes de cycle de vie sont des points d' ancrage permettant l'exécution de code à des points définis pendant la durée de vie d'un composant.
+        </p>
+        <p align="center">
+
+La commande "shouldComponentUpdate" permet au développeur d'empêcher la restitution inutile d'un composant en renvoyant la valeur false si un rendu n'est pas requis,
+"componentDidMountest" appelé une fois le composant "monté" (le composant a été créé dans l'interface utilisateur, souvent en l'associant à un nœud DOM ). Ceci est couramment utilisé pour déclencher le chargement de données depuis une source distante via une API .
+"componentWillUnmountest" appelé immédiatement avant que le composant ne soit démoli ou "démonté". Ceci est couramment utilisé pour effacer les dépendances exigeant des ressources pour le composant qui ne seront pas simplement supprimées avec le démontage du composant (par exemple, en supprimant toute "setInterval()instanc" liée au composant ou un " eventListener " défini sur le "document" en raison de la présence du composant)
+renderest la méthode de cycle de vie la plus importante et la seule requise dans un composant. Il est généralement appelé à chaque fois que l'état du composant est mis à jour, ce qui devrait être reflété dans l'interface utilisateur.  
+            </p>
+            </font>
+        <img src="https://www.audros.fr/wp-content/uploads/Gestion-du-cycle-de-vie-produit.png" width=250 hight=250>
+        </img>
+    
+     </body>
+    <font>
+    <p align="right">
+<a href="page5.html">│Page suivante│</a>
+    </p>
+    </font>
+<font>
+    <p align="left">
+<a href="page3.html">│Page précédente│</a>
+    </p>
+    </font>
+</html>
